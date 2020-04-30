@@ -1,2 +1,0 @@
-# practice_server
-practice
