@@ -77,7 +77,7 @@
       <file leaf-file-name="DemoApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
+            <state relative-caret-position="37">
               <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
             </state>
           </provider>
@@ -319,7 +319,7 @@
       <workItem from="1588240106625" duration="730000" />
       <workItem from="1588240844794" duration="1312000" />
       <workItem from="1588729794624" duration="202000" />
-      <workItem from="1588730661979" duration="999000" />
+      <workItem from="1588730661979" duration="1412000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1588240142510</created>
@@ -351,7 +351,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3243000" />
+    <option name="totallyTimeSpent" value="3656000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1360" height="731" extended-state="6" />
@@ -379,7 +379,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" weight="0.56" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32928944" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.7487002" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913344" visible="true" weight="0.2564688" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
@@ -545,7 +545,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
+        <state relative-caret-position="37">
           <caret line="8" column="51" lean-forward="true" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
         </state>
       </provider>
