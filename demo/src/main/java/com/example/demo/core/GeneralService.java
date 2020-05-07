@@ -1,5 +1,8 @@
 package com.example.demo.core;
 
+import com.example.demo.common.MyPage;
+import com.example.demo.common.MyPageRequest;
+import org.springframework.data.domain.Page;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import javax.annotation.Resource;
@@ -32,6 +35,11 @@ public class GeneralService<T, ID, J extends JpaRepository<T, ID>> implements Ge
     @Override
     public T update(T entity) {
         return jpaRepository.save(entity);
+    }
+
+    @Override
+    public Page<T> query(MyPage<T> page) {
+        return jpaRepository.findAll(MyPageRequest.getPageable(page));
     }
 
     @Override

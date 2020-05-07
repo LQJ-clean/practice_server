@@ -1,6 +1,9 @@
 package com.example.demo.core;
 
 
+import com.example.demo.common.MyPage;
+import org.springframework.data.domain.Page;
+
 import java.util.List;
 
 /**
@@ -28,6 +31,13 @@ public interface GeneralOperation<T> {
      * @return 对象
      */
     T update(T entity);
+
+    /**
+     * 分页查询
+     * @param page 分页数据
+     * @return 对象
+     */
+    Page<T> query(MyPage<T> page);
 
     /**
      * 查询所有

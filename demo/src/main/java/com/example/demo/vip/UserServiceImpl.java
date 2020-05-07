@@ -1,6 +1,8 @@
 package com.example.demo.vip;
 
+import com.example.demo.common.MyPage;
 import com.example.demo.core.GeneralService;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
